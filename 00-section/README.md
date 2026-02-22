@@ -65,7 +65,6 @@ Creating Sources/main.swift
 ~/Documents/03-GitHub/swiftui/00-section main*  
 $  tree
 .
-├── README.md
 ├── Package.swift
 └── Sources
     └── main.swift
