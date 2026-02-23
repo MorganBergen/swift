@@ -13,3 +13,4 @@ struct MyCLI: ParsableCommand {
         Figlet.say(self.input)
     }
 }
+

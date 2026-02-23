@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift}/01-swift-package-manager",
+            "name": "Debug MyCLI (01-swift-package-manager)",
+            "program": "${workspaceFolder:swift}/01-swift-package-manager/.build/debug/MyCLI",
+            "preLaunchTask": "swift: Build Debug MyCLI (01-swift-package-manager)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift}/01-swift-package-manager",
+            "name": "Release MyCLI (01-swift-package-manager)",
+            "program": "${workspaceFolder:swift}/01-swift-package-manager/.build/release/MyCLI",
+            "preLaunchTask": "swift: Build Release MyCLI (01-swift-package-manager)"
+        }
+    ]
+}
